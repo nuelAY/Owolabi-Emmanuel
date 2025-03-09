@@ -28,12 +28,12 @@ const AboutSection: React.FC = () => {
           <hr className="hidden md:block w-40 sm:w-60 border-t-1 border-gray-600 ml-5 mb-6" />
         </div>
 
-        <p className="text-[#495670] mt-4">
+        <p className="text-[#8892b0] mt-4">
           Hello! My name is Manuel and I enjoy creating things that live on the internet. My interest in web development started back in
           2018 when I decided to try creating a basic landing page — turns out creating tables and buttons taught me a lot about
           HTML & CSS!
         </p>
-        <p className="text-[#495670] mt-4">
+        <p className="text-[#8892b0] mt-4">
           Fast-forward to today, and I’ve had the privilege of working at{" "}
           <span className="text-[#64ffda]">a Fiber Optics Company</span>, <span className="text-[#64ffda]">a start-up</span>,{" "}
           <span className="text-[#64ffda]">a service rendering mobile company</span>, and <span className="text-[#64ffda]">an already existing company I joined</span>.
@@ -42,8 +42,8 @@ const AboutSection: React.FC = () => {
         </p>
 
         {/* Tech Stack */}
-        <h3 className="text-lg sm:text-xl font-semibold text-[#495670] mt-6">Here are a few technologies I’ve been working with:</h3>
-        <ul className="grid grid-cols-2 gap-2 text-[#495670] mt-4">
+        <h3 className="text-lg sm:text-xl font-semibold text-[#8892b0] mt-6">Here are a few technologies I’ve been working with:</h3>
+        <ul className="grid grid-cols-2 gap-2 text-[#8892b0] mt-4">
           {technologies.map((tech, index) => (
             <motion.li
               key={index}
