@@ -36,11 +36,18 @@ const allProjects = [
     github: "https://github.com/P-Moriarty/quizzler-app-start",
   },
   {
-    title: "Another Great App",
-    description: "A mobile application built with React Native and Python",
-    tech: ["React Native", "Typescript", "Python"],
+    title: "Todo Mobile",
+    description: "A mobile application built with React Native and Python that allows for ctreating and storing todo lists with push notifications that serves as a reminder",
+    tech: ["React Native", "Typescript", "Python", "Expo"],
     externalLink: "",
-    github: "",
+    github: "https://github.com/P-Moriarty/Todo-app",
+  },
+  {
+    title: "TESCO Grocery App",
+    description: "A delivery mobile application built with React Native with google authentification, express js and MongoDB as backend and database. That takes a customers order and create the delivery system feel with google api for location and also payment platform with atm card implemented",
+    tech: ["React Native", "Typescript", "GoogleOath", "Express Js", "MongoDb"],
+    externalLink: "",
+    github: "https://github.com/P-Moriarty/TESCO-GROCERY-APP",
   },
 ];
 

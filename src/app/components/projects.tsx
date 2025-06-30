@@ -30,6 +30,33 @@ const projects = [
     github: "https://github.com/nuelAY/Portfilio-project",
     live: "http://portfilio-project.vercel.app/",
   },
+  {
+    title: "Owodex",
+    description:
+      "Owodex is a fully responsive web directory for money services that allows users to explore financial service providers in Nigeria. It serves as a listing platform for currency exchanges, showing verified vendors and contact options.",
+    techStack: ["VS Code", "Tailwind CSS", "Next JS", "TypeScript", "Framer Motion", "ShadCN"],
+    image: "/image/Owodex.png",
+    github: "https://github.com/nuelAY/Owodex",
+    live: "https://owodex.vercel.app/",
+  },
+  {
+    title: "Cassidy FX",
+    description:
+      "Cassidy FX is a modern, responsive currency exchange platform frontend. It showcases the branding and marketing interface of a cross-border money transfer company with a focus on usability, motion design, and user trust.",
+    techStack: ["VS Code", "React", "Next JS", "Typescrpt", "Tailwind CSS", "Framer Motion"],
+    image: "/image/Cassidy.png",
+    github: "https://github.com/nuelAY/Cassidy-fx",
+    live: "https://cassidy-fx.vercel.app/",
+  },
+  {
+    title: "A Blog App",
+    description:
+      "A full-stack blogging platform where users can create, edit, delete, and view blog posts. It features authentication, RESTful APIs, and a functional admin/user interface.",
+    techStack: ["VS Code", "React/Next Js", "Tailwind CSS", "Redux/Redux toolkit", "Express js", "Mongo DB", "JWT"],
+    image: "/image/Blog.png",
+    github: "https://github.com/nuelAY/Blog-App",
+    live: "https://blog-app-ten-rho-74.vercel.app/",
+  },
 ];
 
 const ProjectCard: React.FC = () => {

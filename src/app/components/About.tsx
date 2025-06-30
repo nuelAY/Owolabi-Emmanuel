@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
-const technologies = ["JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS", "Python", "React Native", "Express Js", "Redux", "Expo"];
+const technologies = ["JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS", "Flask", "React Native", "Express Js", "Mongo DB", "Redux", "Expo", "ShadCN", "Framer Motion"];
 
 const slideUp = {
   hidden: { opacity: 0, y: 50 },
