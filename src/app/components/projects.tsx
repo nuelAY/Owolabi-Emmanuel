@@ -12,15 +12,15 @@ const projects = [
     github: "https://github.com/nuelAY/Cardtonic-Clone",
     live: "https://cardtonic-clone-five.vercel.app/",
   },
-  {
-    title: "Store Dashboard",
-    description:
-      "A recognizable visual representation of a store dashboard, with a logo and charts to show sales and orders to show business output.",
-    techStack: ["VS Code", "Tailwind Css", "React", "headless Ui"],
-    image: "/image/project-img5.png",
-    github: "https://github.com/nuelAY/Store-Dashboard",
-    live: "https://store-dashboard-three.vercel.app/",
-  },
+  // {
+  //   title: "Store Dashboard",
+  //   description:
+  //     "A recognizable visual representation of a store dashboard, with a logo and charts to show sales and orders to show business output.",
+  //   techStack: ["VS Code", "Tailwind Css", "React", "headless Ui"],
+  //   image: "/image/project-img5.png",
+  //   github: "https://github.com/nuelAY/Store-Dashboard",
+  //   live: "https://store-dashboard-three.vercel.app/",
+  // },
   {
     title: "A Portfolio Template",
     description:
@@ -56,7 +56,7 @@ const projects = [
     image: "/image/Blog.png",
     github: "https://github.com/nuelAY/Blog-App",
     live: "https://blog-app-ten-rho-74.vercel.app/",
-  },
+  }
 ];
 
 const ProjectCard: React.FC = () => {
@@ -71,13 +71,13 @@ const ProjectCard: React.FC = () => {
         </div>
 
         {/* Project Cards */}
-        <div className="space-y-16">
+        <div className="space-y-10">
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`flex flex-col md:flex-row items-center md:items-start gap-8 ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
+              className={`flex flex-col md:flex-row items-center md:items-start gap-8 w-full flex-shrink-0 ${index % 2 === 0 ? "md:flex-row-reverse" : ""
+                }`}
+
             >
               {/* Project Image */}
               <div className="w-full md:w-1/2">
