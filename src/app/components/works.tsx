@@ -11,9 +11,20 @@ interface JobDetail {
 
 const jobDetails: JobDetail[] = [
   {
+    company: "Product Studio",
+    position: "Frontend Developer",
+    period: "September 2025 - December 2025",
+    responsibilities: [
+      "Worked on the development of Bvndle LAAS(Loyalty as a service) by enabling performance enhancements and seamless UI/UX.",
+      "Worked closely with UI/UX designers, backend developers, and product managers to align web features with user requirements and business goals.",
+      "Leveraged Redux, ReduxTooklkit for efficient application state management, and also caching necessary datas when needed ,ensuring smooth and responsive user experiences.",
+      "Improved developer clarity around RTK Query usage and API debugging",
+    ],
+  },
+  {
     company: "Instant Fiber",
     position: "Associate Engineer",
-    period: "April 2024 - Present",
+    period: "April 2024 - June 2025",
     responsibilities: [
       "Deliver high-quality, robust production code for a diverse array of projects.",
       "Work alongside the lead engineer to lead research and development.",
@@ -24,7 +35,7 @@ const jobDetails: JobDetail[] = [
   {
     company: "Warneo",
     position: "Associate Software Engineer",
-    period: "April 2024 - Present",
+    period: "April 2024 - January 2025",
     responsibilities: [
       " Worked  closely  alongside  senior  developers  to  develop  user-friendly  web  interfaces  for Warneo  which  is  an  online  marketplace  for  locating  vendors  for  different  services  that  need rendering.",
       "Optimized applications for performance and scalability.",
@@ -34,7 +45,7 @@ const jobDetails: JobDetail[] = [
   {
     company: "The Intern Place",
     position: "Frontend Developer",
-    period: "June 2024 - Present",
+    period: "June 2024 - December 2024",
     responsibilities: [
       "Built responsive web applications using modern JavaScript frameworks.",
       "Conducted code reviews and improved overall code quality.",

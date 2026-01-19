@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import RotatingLogo from "./RotatingLogo";
 
 interface NavLinkProps {
   href: string;
@@ -29,30 +30,37 @@ function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 opacity-100 shadow-lg backdrop-blur-md font-mono">
       <div
-        className="container mx-auto px-4 py-4 flex justify-center items-center shadow-md"
+        className="container mx-auto px-4 py-4 flex justify-between items-center shadow-md"
         style={{
           fontFamily: "'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace",
         }}
       >
+        {/* Logo */}
+        <div className="flex-shrink-0">
+          <Link href="/">
+            <RotatingLogo />
+          </Link>
+        </div>
+
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 ">
           <div className="md:flex md:mt-2 space-x-6">
-          <NavLink href="#about">
-            <span className="text-[#64ffda]">01.</span> About
-          </NavLink>
-          <NavLink href="#experience">
-            <span className="text-[#64ffda]">02.</span> Experience
-          </NavLink>
-          <NavLink href="#work">
-            <span className="text-[#64ffda]">03.</span> Work
-          </NavLink>
-          <NavLink href="#contact">
-            <span className="text-[#64ffda]">04.</span> Contact
-          </NavLink>
+            <NavLink href="#about">
+              <span className="text-[#64ffda]">01.</span> About
+            </NavLink>
+            <NavLink href="#experience">
+              <span className="text-[#64ffda]">02.</span> Experience
+            </NavLink>
+            <NavLink href="#work">
+              <span className="text-[#64ffda]">03.</span> Work
+            </NavLink>
+            <NavLink href="#contact">
+              <span className="text-[#64ffda]">04.</span> Contact
+            </NavLink>
           </div>
-          
+
           <a
-            href="https://docs.google.com/document/d/11t-ElV68LUkbeu49Yd_aCnYnsLqiA6KG/edit?usp=drive_link&ouid=105508305897099251837&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1Sz4RRdw_yWLG1nb_rQPGikSe2xbU-jjd/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#64ffda] text-[#64ffda] px-4 py-2 rounded-md hover:border-r-4 hover:border-b-4 transition-all duration-300"
