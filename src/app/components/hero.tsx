@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
     <section className="h-screen flex flex-col justify-center items-center md:items-start bg-[#0A192F] text-white px-6 sm:px-8 md:px-16 lg:px-24 text-center md:text-left">
       <p className="text-[#64ffda] text-sm sm:text-lg font-mono">Hi, my name is</p>
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#ccd6f6] mt-2 h-[1.2em] flex items-center justify-center md:justify-start">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#ccd6f6] mt-5 mb-5 h-[1.2em] flex items-center justify-center md:justify-start">
         {displayText}
         <span className="animate-pulse ml-1">|</span>
       </h1>
