@@ -48,13 +48,13 @@ const HeroSection: React.FC = () => {
       </h1>
 
       <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#495670] mt-2">
-        I build things for the web.
+        I build things for web and mobile.
       </h2>
 
       <p className="text-[#8892b0] font-semibold max-w-lg sm:max-w-xl mt-4">
         I&apos;m a Nigeria-based software engineer who specializes in building
         (and occasionally designing) exceptional digital experiences.
-        Currently, I&apos;m an engineer at <span className="text-[#64ffda]">Instant Fiber</span> focused on
+        Currently, I&apos;m an engineer at <span className="text-[#64ffda]">Cardic</span> focused on
         building accessible, human-centered products.
       </p>
 

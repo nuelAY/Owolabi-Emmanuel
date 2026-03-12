@@ -11,6 +11,18 @@ interface JobDetail {
 
 const jobDetails: JobDetail[] = [
   {
+    company: "Cardic",
+    position: "React Native Developer",
+    period: "December 2025 - Present",
+    responsibilities: [
+      "Engineered a modular 6-level KYC verification system integrating BVN and NIN verification, secure document uploads(Government IDs, Utility Bills), and persistent state logic to manage sequential compliance workflows.",
+      "Built a digital asset trading interface for Gift Cards and Crypto with real-time pricing using a Live Rate Calculator and efficient data synchronization via RTK Query.",
+      "Implemented real-time trade updates and in-app chat using Socket.io and Firebase Cloud Messaging, improving transaction transparency and user interaction. ",
+      "Strengthened platform security by integrating biometric authentication (Fingerprint/FaceID) and secure local storage with MMKV and Encrypted Storage for sensitive data protection.",
+      "Developed a high-performance mobile UI with React Native, responsive design systems, push notifications, referral features, and optimized navigation using React Navigation and Reanimated."
+    ],
+  },
+  {
     company: "Product Studio",
     position: "Frontend Developer",
     period: "September 2025 - December 2025",
@@ -23,7 +35,7 @@ const jobDetails: JobDetail[] = [
   },
   {
     company: "Instant Fiber",
-    position: "Associate Engineer",
+    position: "Software Engineer Intern",
     period: "April 2024 - June 2025",
     responsibilities: [
       "Deliver high-quality, robust production code for a diverse array of projects.",
@@ -32,19 +44,19 @@ const jobDetails: JobDetail[] = [
       " Worked on the mobile application with React Native and Python with frameworks like Gluestack, and also using Redux for API calls.",
     ],
   },
-  {
-    company: "Warneo",
-    position: "Associate Software Engineer",
-    period: "April 2024 - January 2025",
-    responsibilities: [
-      " Worked  closely  alongside  senior  developers  to  develop  user-friendly  web  interfaces  for Warneo  which  is  an  online  marketplace  for  locating  vendors  for  different  services  that  need rendering.",
-      "Optimized applications for performance and scalability.",
-      "Collaborated  with  cross-functional  teams  (design,  backend)  to  deliver  a  cohesive  user experience.",
-    ],
-  },
+  // {
+  //   company: "Warneo",
+  //   position: "Associate Software Engineer",
+  //   period: "April 2024 - January 2025",
+  //   responsibilities: [
+  //     " Worked  closely  alongside  senior  developers  to  develop  user-friendly  web  interfaces  for Warneo  which  is  an  online  marketplace  for  locating  vendors  for  different  services  that  need rendering.",
+  //     "Optimized applications for performance and scalability.",
+  //     "Collaborated  with  cross-functional  teams  (design,  backend)  to  deliver  a  cohesive  user experience.",
+  //   ],
+  // },
   {
     company: "The Intern Place",
-    position: "Frontend Developer",
+    position: "Frontend Developer Volunteer",
     period: "June 2024 - December 2024",
     responsibilities: [
       "Built responsive web applications using modern JavaScript frameworks.",
@@ -74,11 +86,10 @@ const JobExperience: React.FC = () => {
           {jobDetails.map((job) => (
             <button
               key={job.company}
-              className={`w-full text-left py-3 px-4 font-mono text-sm sm:text-base transition-all duration-300 rounded-md focus:outline-none ${
-                selectedJob.company === job.company
+              className={`w-full text-left py-3 px-4 font-mono text-sm sm:text-base transition-all duration-300 rounded-md focus:outline-none ${selectedJob.company === job.company
                   ? "bg-[#112240] text-[#64ffda] border-l-4 border-[#64ffda]"
                   : "hover:bg-[#112240] hover:text-[#64ffda]"
-              }`}
+                }`}
               onClick={() => setSelectedJob(job)}
             >
               {job.company}

@@ -60,7 +60,7 @@ function Navbar() {
           </div>
 
           <a
-            href="https://drive.google.com/file/d/1Sz4RRdw_yWLG1nb_rQPGikSe2xbU-jjd/view?usp=sharing"
+            href="https://drive.google.com/file/d/12FqCqlELW5wF6O1EyCv7MJptOGaJQuLJ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#64ffda] text-[#64ffda] px-4 py-2 rounded-md hover:border-r-4 hover:border-b-4 transition-all duration-300"

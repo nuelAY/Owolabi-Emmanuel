@@ -4,6 +4,15 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "DevMetrics",
+    description:
+      "DevMetrics transforms your raw GitHub activity into meaningful, beautiful performance intelligence.",
+    techStack: ["Next Js", "Typescript", "React", "Tailwind CSS", "Framer", "Lucide React", "MongoDB", "Express Js", "NextAuth.js", "Recharts", "Octokit" ],
+    image: "/image/DevMetrics.jpg",
+    github: "https://github.com/nuelAY/DevMetrics",
+    live: "https://dev-metrics-tau.vercel.app/",
+  },
+  {
     title: "Cardtonic Clone",
     description:
       "A clone or demo web version of a brand called Cadtonic which I was just using as practice",
@@ -12,15 +21,6 @@ const projects = [
     github: "https://github.com/nuelAY/Cardtonic-Clone",
     live: "https://cardtonic-clone-five.vercel.app/",
   },
-  // {
-  //   title: "Store Dashboard",
-  //   description:
-  //     "A recognizable visual representation of a store dashboard, with a logo and charts to show sales and orders to show business output.",
-  //   techStack: ["VS Code", "Tailwind Css", "React", "headless Ui"],
-  //   image: "/image/project-img5.png",
-  //   github: "https://github.com/nuelAY/Store-Dashboard",
-  //   live: "https://store-dashboard-three.vercel.app/",
-  // },
   {
     title: "A Portfolio Template",
     description:
